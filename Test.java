@@ -3,8 +3,8 @@ class Test {
     private int sem;
 
 public void Test(String name , int sem) {
-    this.name = name;
-    this.sem = sem;
-    System.out.println("Test constructor");
+        this.name = name;
+        this.sem = sem;
+        System.out.println("Test constructor");
     }
 }
