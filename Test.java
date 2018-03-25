@@ -1,11 +1,9 @@
 class Test {
     private String name;
-    private int sem;
+    private int semester;
 
-
-public void Test(String name , int sem) {
+public void Test(String name , int semester) {
         this.name = name;
-        this.sem = sem;
-        System.out.println("Test constructor");
+        this.semester = semester;
     }
 }
